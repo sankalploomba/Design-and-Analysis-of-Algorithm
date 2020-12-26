@@ -109,7 +109,7 @@ int main()
 		{	
 			matrix[i][min_col]=0;					//This step just removes the weight that has been used once
 			matrix[min_col][i]=0;					//from both (i,j) and (j,i). We can omit this step if we want to.
-													//Then, adjacency matrix will have no change whatsoever.
+										//Then, adjacency matrix will have no change whatsoever.
 			min=0;
 			i=output[m-2]; m--;
 		}
@@ -120,7 +120,7 @@ int main()
 			
 			matrix[i][min_col]=0;					//This step just removes the weight that has been used once
 			matrix[min_col][i]=0;					//from both (i,j) and (j,i). We can omit this step if we want to.
-													//Then, adjacency matrix will have no change whatsoever.
+										//Then, adjacency matrix will have no change whatsoever.
 			i=min_col;
 		}
 
