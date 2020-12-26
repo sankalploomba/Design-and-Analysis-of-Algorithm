@@ -4,7 +4,7 @@ using namespace std;
 int i, j, *a, size;
 void bsort(int *a)
 {
-	int c=0;
+	int c=0, temp;
 	for(i=0;i<size;i++)
 	{
 		for(j=0;j<size-1-i;j++)
@@ -12,13 +12,13 @@ void bsort(int *a)
 			c++;
 			if(a[j]>a[j+1])
 			{
-				int temp=a[j];
+				temp=a[j];
 				a[j]=a[j+1];
 				a[j+1]=temp;
 			}
 		}
 	}
-	cout<<"c: "<<c<<endl;
+	cout<<"No. of Comparisons: "<<c<<endl;
 }
 int main()
 {
