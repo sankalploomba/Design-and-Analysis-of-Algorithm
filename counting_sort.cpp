@@ -1,5 +1,5 @@
 #include <iostream>
-#include <unistd.h>
+#include <unistd.h>		//use windows.h and change sleep() to Sleep() if on Windows OS
 using namespace std;
 
 int i,j, MAX, MIN;
