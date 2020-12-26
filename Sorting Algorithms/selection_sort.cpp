@@ -21,7 +21,7 @@ void ssort(int *a)
 			a[min]=temp;
 		}
 	}
-	cout<<"c: "<<c<<endl;
+	cout<<"No. of Comparisons: "<<c<<endl;
 }
 int main()
 {
