@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 int i,j,k;
@@ -22,7 +22,7 @@ void shsort()
 			a[k+gap]=temp;
 		}
 	}
-	cout<<"c: "<<c<<endl;
+	cout<<"No. of Comparisons: "<<c<<endl;
 }
 int main()
 {
