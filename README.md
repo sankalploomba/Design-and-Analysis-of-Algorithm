@@ -1,2 +1,2 @@
 # Design-and-Analysis-of-Algorithm
-Code written in C++ for various algorithms taught in the subject of Design and Analysis of Algorithms.
+Code files written in C++ for various Sorting Algorithms and other Algorithms taught in the subject Design and Analysis of Algorithms. Students can use these programs as reference.
