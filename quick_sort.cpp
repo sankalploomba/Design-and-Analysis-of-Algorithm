@@ -1,10 +1,10 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 int i,j,k,*a,size;
 
 int partition(int *a, int f, int l)
 {
-	int pivot=a[f], temp;
+	int pivot=a[f], temp;			//using first element as pivot
 	i=l; 
 	for(j=l;j>f;j--)
 	{
